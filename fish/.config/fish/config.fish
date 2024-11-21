@@ -1,12 +1,13 @@
 if status is-interactive
     set fish_greeting
 
-    set -x PATH $PATH /opt/nvim-linux64/bin
-    set -x PATH $HOME/.local/bin $PATH
+    fish_add_path $HOME/.local/share/pnpm 
+    fish_add_path /opt/nvim-linux64/bin
+    fish_add_path $HOME/.local/bin 
 
     starship init fish | source
 
     zoxide init fish | source
 
-    ## gh copilot alias -- fish | source
+    set --universal nvm_default_version v22
 end
