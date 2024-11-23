@@ -4,9 +4,6 @@ layout {
             plugin location="zellij:tab-bar"
         }
         children
-        pane size=2 borderless=true {
-            plugin location="zellij:status-bar"
-        }
     }
     tab cwd="~/projects/cottno-api" name="api" {
         pane command="nvim"
@@ -14,5 +11,17 @@ layout {
 
     tab cwd="~/projects/cottno" name="front_end" {
         pane command="nvim"
+    }
+
+    tab cwd="~/projects/cottno-api/src/web" name="dotnet" {
+        pane
+    }
+
+    tab cwd="~/projects/cottno" name="pnpm" {
+        pane
+    }
+
+    tab cwd="~/projects/cottno-api" name="terminal" {
+        pane
     }
 }
