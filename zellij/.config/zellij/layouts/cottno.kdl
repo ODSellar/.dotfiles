@@ -17,7 +17,7 @@ layout {
         pane
     }
 
-    tab cwd="~/projects/cottno" name="4 pnpm" {
+    tab cwd="~/projects/cottno-api/src/cottno" name="4 pnpm" {
         pane
     }
 
