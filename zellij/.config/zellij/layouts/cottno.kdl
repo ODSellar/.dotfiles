@@ -5,23 +5,19 @@ layout {
         }
         children
     }
-    tab cwd="~/projects/cottno-api" name="1 api" {
+    tab cwd="~/projects/cottno-api" name="1 nvim" {
         pane command="nvim"
     }
 
-    tab cwd="~/projects/cottno" name="2 front_end" {
-        pane command="nvim"
-    }
-
-    tab cwd="~/projects/cottno-api/src/web" name="3 dotnet" {
+    tab cwd="~/projects/cottno-api/src/web" name="2 dotnet" {
         pane
     }
 
-    tab cwd="~/projects/cottno-api/src/cottno" name="4 pnpm" {
+    tab cwd="~/projects/cottno-api/src/cottno" name="3 pnpm" {
         pane
     }
 
-    tab cwd="~/projects/cottno-api" name="5 terminal" {
+    tab cwd="~/projects/cottno-api" name="4 terminal" {
         pane
     }
 }
