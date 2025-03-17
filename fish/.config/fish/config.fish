@@ -4,6 +4,7 @@ if status is-interactive
     fish_add_path $HOME/.local/share/pnpm 
     fish_add_path /opt/nvim-linux64/bin
     fish_add_path $HOME/.local/bin 
+    fish_add_path $HOME/neovim/bin
 
     starship init fish | source
 
