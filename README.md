@@ -8,6 +8,7 @@ This readme is for the .dotfies bare git repo.
 - fish
 
 ## New Machine Setup
+
 To setup on a new machine, follow the below.
 
 - In the `$HOME` dir clone the repo `git clone --bare https://github.com/ODSellar/.dotfiles.git`.
@@ -19,3 +20,5 @@ To setup on a new machine, follow the below.
 ## Usage
 
 A function is setup in `fish` for `dotfiles`, this lets you use `dotfiles` as you would `git` for the `.dotfiles` bare repo.
+
+There is a list of installed packages `pkglist.txt`, check over the packages then run `pacman -S --needed - < pkglist.txt`
